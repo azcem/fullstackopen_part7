@@ -10,12 +10,6 @@ const Menu = () => {
   const padding = {
     paddingRight: 5
   }
-  const anecdotes = [
-    {
-      id: '1',
-      content: 'test'
-    }
-  ]
   return (
     <div>
       <Link style={padding} to='/'>anecdotes</Link>
